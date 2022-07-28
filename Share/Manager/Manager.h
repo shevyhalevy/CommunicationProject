@@ -9,7 +9,7 @@
 #include <iostream>
 using namespace std;
 
-//#include <under>
+
 class Manager
 {
 public:
@@ -21,17 +21,17 @@ public:
 		Client c = Client();
 		Server_Socket server = Server_Socket(port);
 		Send_to = Send_to1;
-		thread t1(&Manager::get_Massag,this);
-		thread t2(&Manager::rec_get_Massag, this);
-		thread t3(&Manager::chach, this);
-		t1.detach();
-		t2.detach();
-		t3.detach();
+		thread tget_Massag(&Manager::get_Massag,this);
+		thread trec_get_Massag(&Manager::rec_get_Massag, this);
+		thread tchech(&Manager::chech, this);
+		tget_Massag.detach();
+		trec_get_Massag.detach();
+		tchech.detach();
 		this_thread::sleep_for(std::chrono::seconds(1));
 	}
 	void get_Massag();
 	void rec_get_Massag();
-	void chach();
+	void chech();
 };
 
 
@@ -70,7 +70,7 @@ void Manager::rec_get_Massag()
 
 }
 
-void Manager::chach()
+void Manager::chech()
 {
 	while (true) {
 		if (c.Client_counter % 5 == 0) {

@@ -111,7 +111,7 @@ void Server_Socket::server()
             case(9002):client.sin_port = htons(9009);//modempc2
             case(9009):client.sin_port = htons(9011);//menegerpc2
             case(9011):client.sin_port = htons(9008);//message generator
-            case(9008):exit(0);
+            case(9008):return ;
             }
             if (sendto(server_socket, (char*)&message3,sizeof(message3), 0, (sockaddr*)&client, sizeof(sockaddr_in)) == SOCKET_ERROR)
             {
