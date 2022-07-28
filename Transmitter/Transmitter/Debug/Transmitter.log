@@ -1,0 +1,10 @@
+﻿  Transmitter.cpp
+C:\Users\1\Desktop\תיכנות\bootcamp\C++\MiniProject\CommunicationProject\Share\Client\Client.h(74,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\1\Desktop\תיכנות\bootcamp\C++\MiniProject\CommunicationProject\Share\Client\Client.h(94,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\1\Desktop\תיכנות\bootcamp\C++\MiniProject\CommunicationProject\Share\Manager\Manager.h(43,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\1\Desktop\תיכנות\bootcamp\C++\MiniProject\CommunicationProject\Share\Manager\Manager.h(58,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\1\Desktop\תיכנות\bootcamp\C++\MiniProject\CommunicationProject\Share\Manager\Manager.h(62,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\1\Desktop\תיכנות\bootcamp\C++\MiniProject\CommunicationProject\Share\Manager\Manager.h(80,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\1\Desktop\תיכנות\bootcamp\C++\MiniProject\CommunicationProject\Share\Client\Client.h(66): warning C4715: 'Client::Create_Client': not all control paths return a value
+C:\Users\1\Desktop\תיכנות\bootcamp\C++\MiniProject\CommunicationProject\Share\Client\Client.h(146): warning C4715: 'Client::recivd_client': not all control paths return a value
+  Transmitter.vcxproj -> C:\Users\1\Desktop\תיכנות\bootcamp\C++\MiniProject\CommunicationProject\Transmitter\Debug\Transmitter.exe

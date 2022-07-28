@@ -1,0 +1,5 @@
+﻿  MessageGenerator.cpp
+C:\Users\1\Desktop\תיכנות\bootcamp\C++\MiniProject\CommunicationProject\Share\Client\Client.h(55,32): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Users\1\Desktop\תיכנות\bootcamp\C++\MiniProject\CommunicationProject\Share\Client\Client.h(66): warning C4715: 'Client::Create_Client': not all control paths return a value
+C:\Users\1\Desktop\תיכנות\bootcamp\C++\MiniProject\CommunicationProject\Share\Client\Client.h(145): warning C4715: 'Client::recivd_client': not all control paths return a value
+  MessageGenerator.vcxproj -> C:\Users\1\Desktop\תיכנות\bootcamp\C++\MiniProject\CommunicationProject\MessageGenerator\x64\Debug\MessageGenerator.exe

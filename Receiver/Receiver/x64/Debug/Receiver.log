@@ -1,0 +1,6 @@
+﻿  Receiver.cpp
+C:\Users\1\Desktop\תיכנות\bootcamp\C++\MiniProject\CommunicationProject\Share\Server\Server_Socket.h(106,16): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\1\Desktop\תיכנות\bootcamp\C++\MiniProject\CommunicationProject\Share\Client\Client.h(55,32): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Users\1\Desktop\תיכנות\bootcamp\C++\MiniProject\CommunicationProject\Share\Client\Client.h(124): warning C4715: 'Client::recivd_client': not all control paths return a value
+C:\Users\1\Desktop\תיכנות\bootcamp\C++\MiniProject\CommunicationProject\Share\Client\Client.h(66): warning C4715: 'Client::Create_Client': not all control paths return a value
+  Receiver.vcxproj -> C:\Users\1\Desktop\תיכנות\bootcamp\C++\MiniProject\CommunicationProject\Receiver\x64\Debug\Receiver.exe
